@@ -1,0 +1,81 @@
+body{ 
+}
+
+#map {
+    height: 500px;
+	width: 500px;
+	margin: 0 auto;
+    display: block;
+	padding: 5px;
+	float: center; }
+
+form{
+	width: 450px;
+	margin: auto;
+	background: rgba(0,0,0,0.4);
+	padding: 30px 20px;
+	box-sizing: border-box;
+	margin-top: 20px;
+	border-radius: 7px;
+}
+
+h2{
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+input, textarea {
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 17px;
+	border: none;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100px;
+}
+
+#boton{
+	background: #31384A;
+	color: #fff;
+	padding: 20px;
+}
+
+#boton{
+	cursor: pointer;
+}
+
+@media(max-width: 480px;){
+	form{
+		width: 100%;
+	}
+}
+
+h1{
+	text-align: center;
+	color: #000;
+	font-size: 40px;
+	margin-top: 20px;
+}
+
+#edad {
+ margin: 0 auto;
+ float: center;
+
+}
+
+.thumbnail{
+	background-color: transparent;
+}
+
+input{
+	margin: 0 auto;
+	float: center;
+}

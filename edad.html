@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head> <meta charset="utf-8">  
+<link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/estilo.css" rel="stylesheet">  
+<link href="css/freelancer.css" rel="stylesheet">
+</head>
+<body background="img/tapiz.png" style="background-size:cover; background-repeat:no-repeat; height:100vh;" >
+
+
+<h1>Ingresa tu año</h1>
+
+<div id="edad">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+			<div class="center-block">
+				<input id="numb" style="float: center;">
+	            <button type="button" onclick="myFunction()" class="center-block">Entrar</button>
+	          </div>
+			</div>
+		</div>
+		
+	</div>
+</div>
+<script>
+function myFunction() {
+    var x, text;
+    x = document.getElementById("numb").value;
+
+    if (isNaN(x) || x < 1810 || x > 1998) {
+        alert("Lo sentimos no puedes ingresar, buen dia");
+    } else {
+        text = window.location='http://127.0.0.1/buscapleitos/index.html'; 
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+
+</body>
+</html>
